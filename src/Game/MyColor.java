@@ -14,6 +14,7 @@ public class MyColor implements Serializable {
 		return c;
 	}
 	
+	//A színnevek kiírására
 	public String toString() {
 		if(c == Color.blue) {
 			return "kék";
