@@ -13,3 +13,7 @@ A következő lépést az ellenfél olyan színű bábujával kell, hogy tegye, 
 A felhasználónak lehetősége van elmentenie a játék állását az erre megfelelő gombbal. A program indulásakor "A játék folytatása" menüpontot választva a legutoljára elmentett játékállás jelenik meg a táblán, és mindig a felhasználó következik a lépéssel.
 
 A játék során a robot véletlenszerűen választ a megengedett mezők közül, amire lép.
+
+
+## A repo tartalma
+A repository tartalmazza a source file-okat, illetve JUnit teszteket is a programhoz, mely a házi feladat követelménye volt.
