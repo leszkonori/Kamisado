@@ -271,6 +271,7 @@ public class GameFrame extends JFrame implements Serializable {
 		return -1;
 	}
 	
+	//Játékállás mentése
 	public class SaveButtonActionListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -287,6 +288,7 @@ public class GameFrame extends JFrame implements Serializable {
 		}
 	}
 	
+	//Lehetséges kezdőbábuk gombjai
 	public class StartingButtonActionListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -311,6 +313,7 @@ public class GameFrame extends JFrame implements Serializable {
 		}
 	}
 	
+	//Mező gombja, melyre a játékos lépni szeretne
 	public class FieldButtonActionListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -329,6 +332,7 @@ public class GameFrame extends JFrame implements Serializable {
 		}
 	}
 	
+	//"Léptem!" gomb
 	public class ReadyButtonActionListener implements ActionListener {
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -519,6 +523,7 @@ public class GameFrame extends JFrame implements Serializable {
 		}
 	}
 	
+	//ELveszi az adott gombról az összes hozzáadott ActionListenert
 	public void removeButtonActionListener(JButton b) {
 		for(ActionListener al : b.getActionListeners()) {
 	        b.removeActionListener(al);

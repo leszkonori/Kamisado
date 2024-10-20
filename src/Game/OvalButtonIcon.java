@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 import javax.swing.Icon;
 
+//A kör alakú bábukhoz használt osztály
 public class OvalButtonIcon implements Icon, Serializable {
 	Color color;
 	
@@ -18,6 +19,7 @@ public class OvalButtonIcon implements Icon, Serializable {
 		return color;
 	}
 	
+	//A bábu megrajzolása
 	@Override
 	public void paintIcon(Component c, Graphics g, int x, int y) {
 		g.setColor(Color.white);
